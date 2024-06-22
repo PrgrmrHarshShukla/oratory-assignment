@@ -12,7 +12,7 @@ const Head2 = ({ activeTab }: { activeTab: string }) => {
                 <div key={index} 
                     className={`h-full flex flex-col justify-center items-center ${
                         activeTab === tab
-                        ? 'text-red-500 border-b-2 border-red-500 font-medium'
+                        ? 'text-[#DC4A2D] border-b-2 border-red-500 font-medium'
                         : 'text-gray-500 hover:text-gray-700'
                     }`}
                 >
