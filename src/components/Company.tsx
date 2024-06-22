@@ -42,7 +42,7 @@ const Company: React.FC<AtlassianDescriptionProps> = ({
         {details.map((detail, index) => (
           <div key={index} className="flex flex-col ">
             <span className="text-sm text-gray-500 font-semibold">{detail.label}</span>
-            <span className="font-medium opacity-90">{detail.value}</span>
+            <span className="font-medium opacity-75">{detail.value}</span>
           </div>
         ))}
       </div>

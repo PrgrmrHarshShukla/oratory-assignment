@@ -18,33 +18,33 @@ const BodyR = () => {
 
 
             
-            <div className="flex flex-row w-[70%] items-center justify-between border-b py-4">
-                <div className="flex flex-row justify-center gap-1 items-center text-gray-600">
+            <div className="flex flex-row w-[80%] items-center justify-between border-b py-4">
+                <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaUsers />
-                <span className="text-[14px]">Applicants</span>
+                <span className="text-[13px] font-medium">Applicants</span>
                 </div>
-                <span className="font-medium">400</span>
+                <span className="font-bold opacity-80">400</span>
             </div>
-            <div className="flex flex-row w-[70%] items-center justify-between border-b py-4">
-                <div className="flex flex-row justify-center gap-1 items-center text-gray-600">
+            <div className="flex flex-row w-[80%] items-center justify-between border-b py-4">
+                <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaUserCheck />
-                <span className="text-[14px]">Matches</span>
+                <span className="text-[13px] font-medium">Matches</span>
                 </div>
-                <span className="font-medium">100</span>
+                <span className="font-bold opacity-80">100</span>
             </div>
-            <div className="flex flex-row w-[70%] items-center justify-between border-b py-4">
-                <div className="flex flex-row justify-center gap-1 items-center text-gray-600">
+            <div className="flex flex-row w-[80%] items-center justify-between border-b py-4">
+                <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaCommentAlt />
-                <span className="text-[14px]">Messages</span>
+                <span className="text-[13px] font-medium">Messages</span>
                 </div>
-                <span className="font-medium">147</span>
+                <span className="font-bold opacity-80">147</span>
             </div>
-            <div className="flex flex-row w-[70%] items-center justify-between border-b py-4">
-                <div className="flex flex-row justify-center gap-1 items-center text-gray-600">
+            <div className="flex flex-row w-[80%] items-center justify-between border-b py-4">
+                <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaEye />
-                <span className="text-[14px]">Views</span>
+                <span className="text-[13px] font-medium">Views</span>
                 </div>
-                <span className="font-medium">800</span>
+                <span className="font-bold opacity-80">800</span>
             </div>
 
 
