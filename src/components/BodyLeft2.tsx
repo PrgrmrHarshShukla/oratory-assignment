@@ -33,12 +33,12 @@ const BodyLeft2 = () => {
             </div>
              <div className="flex flex-col justify-center items-start">
                 <h3 className="text-sm font-medium text-gray-500 mb-2">Type</h3>
-                <span className='font-semibold text-sm'>Full Time</span>
+                <span className='font-semibold text-sm'>Full time</span>
                 
             </div>
              <div className="flex flex-col justify-center items-start">
                 <h3 className="text-sm font-medium text-gray-500 mb-2">Years of Experience</h3>
-                <span className='font-semibold text-sm'>3+ years of experience</span>
+                <span className='font-semibold text-sm'>3+ Years of Experience</span>
                 
             </div>
 

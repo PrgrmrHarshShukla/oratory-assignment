@@ -10,12 +10,12 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
       <div className="flex flex-col justify-center items-start w-full px-20 border-b h-auto py-8">
         <Section title="About the job">
           {description.map((item, index) => (
-            <p key={index} className="text-black text-[13px]">{item}</p>
+            <p key={index} className="text-black text-[13px] font-semibold opacity-80">{item}</p>
           ))}
         </Section>
         
         <Section title="Benefits:">
-          <ul className="list-disc list-inside text-black ml-2 text-[13px]">
+          <ul className="list-disc list-inside font-semibold opacity-80 text-black ml-2 text-[13px]">
             {benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
@@ -23,7 +23,7 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
         </Section>
         
         <Section title="Schedule:">
-          <ul className="list-disc list-inside text-black ml-2 text-[13px]">
+          <ul className="list-disc list-inside font-semibold opacity-80 text-black ml-2 text-[13px]">
             {schedule.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
@@ -31,7 +31,7 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
         </Section>
         
         <Section title="Supplemental pay types:">
-          <ul className="list-disc list-inside text-black ml-2 text-[13px]">
+          <ul className="list-disc font-semibold opacity-80 list-inside text-black ml-2 text-[13px]">
             {payTypes.map((type, index) => (
               <li key={index}>{type}</li>
             ))}
