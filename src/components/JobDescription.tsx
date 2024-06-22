@@ -7,7 +7,7 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
   
 }) => {
     return (
-      <div className="flex flex-col justify-center items-start w-full px-20 border-b h-auto py-8">
+      <div className="flex flex-col justify-center items-start w-full px-20 border-b h-auto py-6">
         <Section title="About the job">
           {description.map((item, index) => (
             <p key={index} className="text-black text-[13px] font-semibold opacity-80">{item}</p>

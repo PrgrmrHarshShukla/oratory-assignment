@@ -4,7 +4,7 @@ import bin from "../assets/images/bin.png"
 
 const BodyR = () => {
     return (
-        <div className="flex flex-col justify-start items-center w-1/4 h-auto min-h-[86vh] bg-[#fcffff]">
+        <div className="flex flex-col justify-start items-center w-1/4 h-auto min-h-[86vh] bg-[#FCFCFC]">
 
             <div className="flex flex-row justify-around w-full items-center my-4">
                 <button className="px-4 py-2 text-red-500 border w-[172px] flex flex-row  justify-center items-center gap-2 border-red-500 rounded-[8px] bg-red-50">
