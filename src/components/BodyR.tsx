@@ -22,28 +22,28 @@ const BodyR = () => {
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaUsers />
-                <span className="text-[16px] font-medium">Applicants</span>
+                <span className="text-[16px] font-medium text-[#4F4F4F]">Applicants</span>
                 </div>
                 <span className="font-l600 text-[20px] text-[#3D3D3D] ">400</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaUserCheck />
-                <span className="text-[16px] font-medium">Matches</span>
+                <span className="text-[16px] font-medium text-[#4F4F4F]">Matches</span>
                 </div>
                 <span className="font-l600 text-[20px] text-[#3D3D3D] ">100</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaCommentAlt />
-                <span className="text-[16px] font-medium">Messages</span>
+                <span className="text-[16px] font-medium text-[#4F4F4F]">Messages</span>
                 </div>
                 <span className="font-l600 text-[20px] text-[#3D3D3D] ">147</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaEye />
-                <span className="text-[16px] font-medium">Views</span>
+                <span className="text-[16px] font-medium text-[#4F4F4F]">Views</span>
                 </div>
                 <span className="font-l600 text-[20px] text-[#3D3D3D] ">800</span>
             </div>

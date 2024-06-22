@@ -11,14 +11,14 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
         <div>
           <h1  className="text-[14px] font-semibold mb-2 opacity-70">About the job</h1>
           {description.map((item, index) => (
-            <p key={index} className=" text-[16px] text-[#3D3D3D] font-medium leading-relaxed">{item}</p>
+            <p key={index} className=" text-[16px] text-[#3D3D3D] font-medium line-28">{item}</p>
           ))}
         </div>
 
         <div className="w-full my-[1px]"></div>
         
         <Section title="Benefits:">
-          <ul className="list-disc list-inside text-[#3D3D3D] font-medium ml-2 text-[16px]  leading-relaxed">
+          <ul className="list-disc list-inside text-[#3D3D3D] font-medium ml-2 text-[16px]  line-28">
             {benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
@@ -37,7 +37,7 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
         <div className="w-full my-[1px]"></div>
         
         <Section title="Supplemental pay types:">
-          <ul className="list-disc  list-inside text-[#3D3D3D] font-medium ml-2 text-[16px]">
+          <ul className="list-disc  list-inside text-[#3D3D3D] font-medium ml-2 text-[16px] line-28">
             {payTypes.map((type, index) => (
               <li key={index}>{type}</li>
             ))}
@@ -59,7 +59,7 @@ const JobDescription = ({ description, benefits, schedule, payTypes, workLocatio
   }) => {
     return (
       <div>
-        <h3 className="text-[16px] font-medium text-[#3D3D3D] leading-relaxed">{title}</h3>
+        <h3 className="text-[16px] font-medium text-[#3D3D3D] line-28">{title}</h3>
         {children}
       </div>
     );
