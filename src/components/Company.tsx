@@ -33,7 +33,7 @@ const Company: React.FC<AtlassianDescriptionProps> = ({
   ];
 
   return (
-    <div className=" border-gray-200 w-full px-20 py-8 mb-20">
+    <div className=" border-gray-200 w-full px-20 py-6 mb-20">
       <div className="flex items-center mb-4 gap-2">
           <img src={logo} className='rounded-[5px] w-8 h-8' />
         <h2 className="text-lg font-semibold opacity-80">Atlassian</h2>
