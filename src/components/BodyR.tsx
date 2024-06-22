@@ -24,28 +24,28 @@ const BodyR = () => {
                 <FaUsers />
                 <span className="text-[16px] font-medium">Applicants</span>
                 </div>
-                <span className="font-bold text-[20px] opacity-80">400</span>
+                <span className="font-l600 text-[20px] text-[#3D3D3D] ">400</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaUserCheck />
                 <span className="text-[16px] font-medium">Matches</span>
                 </div>
-                <span className="font-bold text-[20px] opacity-80">100</span>
+                <span className="font-l600 text-[20px] text-[#3D3D3D] ">100</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaCommentAlt />
                 <span className="text-[16px] font-medium">Messages</span>
                 </div>
-                <span className="font-bold text-[20px] opacity-80">147</span>
+                <span className="font-l600 text-[20px] text-[#3D3D3D] ">147</span>
             </div>
             <div className="flex flex-row w-[90%] px-3 items-center justify-between border-b py-4">
                 <div className="flex flex-row justify-center gap-2 items-center text-gray-600">
                 <FaEye />
                 <span className="text-[16px] font-medium">Views</span>
                 </div>
-                <span className="font-bold text-[20px] opacity-80">800</span>
+                <span className="font-l600 text-[20px] text-[#3D3D3D] ">800</span>
             </div>
 
 

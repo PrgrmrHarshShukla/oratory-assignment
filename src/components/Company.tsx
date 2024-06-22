@@ -36,13 +36,13 @@ const Company: React.FC<AtlassianDescriptionProps> = ({
     <div className=" border-gray-200 w-full px-20 py-6 mb-20">
       <div className="flex items-center mb-4 gap-2">
           <img src={logo} className='rounded-[5px] w-8 h-8' />
-        <h2 className="text-lg font-semibold opacity-80">Atlassian</h2>
+        <h2 className="text-[20px] font-medium text-[#4F4F4F]">Atlassian</h2>
       </div>
       <div className="grid grid-cols-2 gap-4">
         {details.map((detail, index) => (
           <div key={index} className="flex flex-col ">
-            <span className="text-sm text-gray-500 font-semibold">{detail.label}</span>
-            <span className="font-medium opacity-75">{detail.value}</span>
+            <span className="text-[14px] font-medium text-[#6E6D6D]">{detail.label}</span>
+            <span className="font-medium text-[#3D3D3D]">{detail.value}</span>
           </div>
         ))}
       </div>
