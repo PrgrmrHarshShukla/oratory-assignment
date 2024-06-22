@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='flex flex-col justify-start items-center w-full h-auto min-h-full'>
       <Head1 /> 
-      <Head2 />
+      <Head2 activeTab="Job preview" />
       <Body />
     </div>
   )

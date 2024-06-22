@@ -9,18 +9,18 @@ const Head1 = () => {
             </div>
 
             <div className="rounded-full w-1/4 border border-gray-200 flex flex-row justify-between px-2 items-center h-[6vh]">
-                <div className="flex flex-row justify-center items-center gap-2 border px-2 h-[4.5vh] cursor-pointer rounded-full bg-[#e5604f] hover:text-white hover:opacity-100">
+                <div className="flex flex-row justify-center items-center gap-2 hover:border px-2 h-[4.5vh] cursor-pointer rounded-full bg-[#e5604f] hover:text-white hover:opacity-100">
                     <FaSuitcase />
                     <span className="opacity-55 font-semibold text-sm hover:text-white hover:opacity-100">Jobs</span>
                 </div>
-                <div className="flex flex-row justify-center items-center gap-2 border px-2 h-[4.5vh] cursor-pointer rounded-full hover:bg-[#e5604f] hover:text-white hover:opacity-100">
+                <div className="flex flex-row justify-center items-center gap-2 hover:border px-2 h-[4.5vh] cursor-pointer rounded-full hover:bg-[#e5604f] hover:text-white hover:opacity-100">
                     <div className="relative">
                         <FaCommentAlt />
                         <div className="w-[4px] h-[4px] rounded-full bg-[#e76d44] absolute -top-[2px] -right-[2px]"></div>
                     </div>
                     <span className="opacity-55 font-semibold text-sm hover:text-white hover:opacity-100">Messages</span>
                 </div>
-                <div className="flex flex-row justify-center items-center gap-2 border px-2 h-[4.5vh] cursor-pointer rounded-full hover:bg-[#e5604f] hover:text-white hover:opacity-100">
+                <div className="flex flex-row justify-center items-center gap-2 hover:border px-2 h-[4.5vh] cursor-pointer rounded-full hover:bg-[#e5604f] hover:text-white hover:opacity-100">
                     <FaHandHoldingDollar />
                     <span className="opacity-55 font-semibold text-sm hover:text-white hover:opacity-100">Payments</span>
                 </div>
