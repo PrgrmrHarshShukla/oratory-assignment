@@ -19,11 +19,11 @@ const Head1 = () => {
                         <FaCommentAlt />
                         <div className="w-[4px] h-[4px] rounded-full bg-[#e76d44] absolute -top-[2px] -right-[2px]"></div>
                     </div>
-                    <span className="opacity-55 font-medium text-[17px] hover:text-white hover:opacity-10">Messages</span>
+                    <span className="opacity-55 font-medium text-[17px] hover:text-white hover:opacity-100">Messages</span>
                 </div>
                 <div className="flex flex-row justify-center items-center gap-2 hover:border px-3 h-[4.5vh] cursor-pointer rounded-full hover:bg-[#DC4A2D] hover:text-white hover:opacity-100">
                     <FaHandHoldingDollar />
-                    <span className="opacity-55 font-medium text-[17px] hover:text-white hover:opacity-10">Payments</span>
+                    <span className="opacity-55 font-medium text-[17px] hover:text-white hover:opacity-100">Payments</span>
                 </div>
             </div>
 
