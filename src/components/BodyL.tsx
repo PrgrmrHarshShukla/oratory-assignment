@@ -1,5 +1,6 @@
 import BodyLeft1 from "./BodyLeft1"
 import BodyLeft2 from "./BodyLeft2"
+import Company from "./Company"
 import JobDescription from "./JobDescription"
 const BodyL = () => {
     return (
@@ -30,9 +31,17 @@ const BodyL = () => {
                 ]}
                 workLocation="In person"
             />
+            <Company
+                companySize="1k - 2k Employees"
+                type="Private"
+                sector="Information Technology, Infrastructure"
+                funding="Bootstrapped"
+                foundedYear="2019"
+                founders={["Scott Farquhar", "Mike Cannon-Brookes"]}
+            />
 
 
-            
+
             
         </div>
     )

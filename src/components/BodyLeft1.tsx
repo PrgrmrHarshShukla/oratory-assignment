@@ -8,7 +8,7 @@ const BodyLeft1 = ({postedDays, salary, location, isOpen, title}: {
     title: string
 }) => {
     return (
-        <div className="w-[100%] border-b px-20 flex flex-col justify-center items-start gap-4 h-[18vh]">
+        <div className="w-[100%] border-b px-20 flex flex-col justify-center items-start gap-4 py-8">
             <div className="flex flex-row justify-start items-center gap-4">
                 <h1 className="text-3xl opacity-90 font-bold">{title}</h1>
 
