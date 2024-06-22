@@ -4,7 +4,7 @@ import Company from "./Company"
 import JobDescription from "./JobDescription"
 const BodyL = () => {
     return (
-        <div className="flex flex-col justify-start items-start w-5/6 h-auto min-h-[86vh] border-r border-gray-200">
+        <div className="flex flex-col justify-start items-start w-3/4 h-auto min-h-[86vh] border-r border-gray-200">
             <BodyLeft1 
                 postedDays={2}
                 salary="$300k-$400k"
