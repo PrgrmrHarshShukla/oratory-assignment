@@ -6,7 +6,7 @@ const Head2 = ({ activeTab }: { activeTab: string }) => {
 
 
     return (
-        <div className="flex flex-row justify-start items-center w-full h-[6.5vh] px-20 border-b border-gray-200">
+        <div className="flex flex-row justify-start items-center w-full h-[6.8vh] px-20 border-b border-gray-200">
             <div className="flex flex-row justify-center items-center gap-[72px] h-full">
             {tabs.map((tab: string, index: number) => (
                 <div key={index} 

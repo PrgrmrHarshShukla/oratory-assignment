@@ -5,7 +5,7 @@ import { Eye, MessageSquare, UserCheck2Icon, Users } from "lucide-react"
 
 const BodyR = () => {
     return (
-        <div className="flex flex-col justify-start items-center w-1/4 h-auto min-h-[100vh] bg-[#FCFCFC]">
+        <div className="flex flex-col justify-start items-center w-1/4 h-auto min-h-[150vh] shadow-md border-l bg-[#FCFCFC]">
 
             <div className="flex flex-row justify-center gap-4 w-full items-center my-8 mb-6">
                 <button className="px-4 py-2 text-red-500 border w-[164px] flex flex-row  justify-center items-center gap-2 border-red-500 rounded-[8px] bg-red-50">
