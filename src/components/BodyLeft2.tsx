@@ -6,7 +6,7 @@ import xd from '../assets/images/xd.png'
 
 const BodyLeft2 = () => {
     return (
-        <div className="w-[100%] border-b px-20 flex flex-row justify-start items-start gap-28 h-auto py-4">
+        <div className="w-[100%] border-b px-20 flex flex-row justify-start items-start gap-28 h-auto py-5">
 
              <div className="flex flex-col justify-center items-start">
                 <h3 className="text-sm font-medium text-[#6E6D6D] mb-2">Skills Required</h3>

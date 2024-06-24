@@ -1,4 +1,5 @@
-import { FaCoins, FaMapMarkerAlt } from "react-icons/fa"
+import { MapPin } from "lucide-react"
+import coins from "../assets/images/coins.png"
 
 const BodyLeft1 = ({postedDays, salary, location, isOpen, title}: {
     postedDays: number,
@@ -23,12 +24,14 @@ const BodyLeft1 = ({postedDays, salary, location, isOpen, title}: {
 
             <div className="flex flex-row justify-start items-center gap-2">
                 <div className="flex flex-row justify-center items-center gap-2 text-[#5D5D5D]">
-                    <FaMapMarkerAlt />
+                    <MapPin size={17} />                    
                     <span className="mr-4 text-[#5D5D5D] text-[15px] font-medium">{location}</span>
                 </div>
                 <span className="opacity-50 mr-4">•</span>
                 <div className="flex flex-row justify-center items-center gap-2 text-[#5D5D5D]">
-                    <FaCoins />
+                    {/* <FaCoins /> */}
+                    {/* <BiCoinStack size={17} /> */}
+                    <img src={coins} className="font-normal w-[17px] "  />
                     <span className="mr-4 text-[#5D5D5D] text-[15px] font-medium">{salary}</span>
                 </div>
             </div>
