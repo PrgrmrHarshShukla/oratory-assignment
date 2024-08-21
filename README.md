@@ -1,4 +1,14 @@
-# React + TypeScript + Vite
+
+
+## PREVIEW
+![image](https://github.com/user-attachments/assets/a6d128dc-2f0f-44ae-815c-2a776a0969c8)
+
+![image](https://github.com/user-attachments/assets/2d942565-8b88-41fb-9af3-9d0247cff139)
+
+
+
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -28,3 +38,7 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
